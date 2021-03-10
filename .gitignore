@@ -2,12 +2,10 @@ node_modules
 wp-admin/
 wp-includes/
 /*.*
-assets/*
+**/assets/**
 *.css
 *.map
 package-lock.json
-
-# !wp-content/*
 
 wp-content/plugins/**
 wp-content/uploads/**
