@@ -18,3 +18,4 @@ wp-content/plugins/**
 
 !/wp-config-*
 !/.gitignore
+!/*.code-workspace

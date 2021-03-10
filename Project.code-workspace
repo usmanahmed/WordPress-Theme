@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "Theme",
+			"path": "wp-content\\themes\\custom-theme",
+		},
+		{
+			"name": "*",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.jpg": true,
+			"**/.png": true,
+			"**/wp-uploads/**": true,
+			"RAW": true
+		},
+		"search.exclude": {
+			"wp-admin/**": true,
+			"wp-content/**": true,
+			"wp-includes/**": true,
+			"**/wp-*.php": true,
+			"**/*.css": true,
+			"**/*.map": true,
+			"**/jquery-*.js": true,
+		}
+	}
+}
