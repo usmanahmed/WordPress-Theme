@@ -1,0 +1,207 @@
+// font weight variants
+// Bold - 700
+// Semibold - 600
+// Regular - 400
+// Light - 300
+
+@font-face {
+	font-family: "Hind";
+	src: url(../fonts/Hind-Medium.woff2) format("woff2"),
+		url(../fontsHind-Medium.woff) format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hind";
+	src: url(../fonts/Hind-SemiBold.woff2) format("woff2"),
+		url(../fonts/Hind-SemiBold.woff) format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hind";
+	src: url(../fonts/Hind-Bold.woff2) format("woff2"),
+		url(../fonts/Hind-Bold.woff) format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Minion Pro";
+	src: url(../fonts/MinionPro-Regular.woff2) format("woff2"),
+		url(../fonts/MinionPro-Regular.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hind";
+	src: url(../fonts/Hind-Regular.woff2) format("woff2"),
+		url(../fonts/Hind-Regular.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+html, body {
+	font-size: 16px;
+	font-family: "Minion Pro", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: $med-dark-grey;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Hind", serif;
+}
+
+h1, .h1 {
+	font-size: 3.25rem;
+	line-height: 1.154;
+	font-weight: 600;
+}
+
+h2, .h2 {
+	font-size: 2.25rem;
+	line-height: 1.222;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+	color: $dark-blue;
+}
+
+h3, .h3 {
+	font-size: 2rem;
+	line-height: 1.25;
+	font-weight: 500;
+}
+
+h4, .h4 {
+	font-size: 1.75rem;
+	line-height: 1.286;
+	font-weight: normal;
+}
+
+h5, .h5 {
+	font-size: 1.5rem;
+	line-height: 1.333;
+	font-weight: 600;
+}
+
+h6, .h6 {
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: normal;
+}
+
+p {
+	font-size: 1.375rem;
+	line-height: 1.364;
+
+	&.lead {
+		font-size: 1.5rem;
+		line-height: 1.417;
+	}
+
+	&.lg {
+		font-size: 2.25rem;
+		line-height: 1.25;
+		font-family: "Hind", serif;
+		font-weight: 500;
+	}
+
+	&.sm {
+		font-size: 1.125rem;
+		line-height: 1.444;
+	}
+
+	&.xs {
+		font-size: 14px;
+		line-height: 1.429;
+	}
+}
+
+@media (max-width: 991px) {
+
+	h1, .h1 {
+		font-size: 2.75rem;
+	}
+
+	h2, .h2 {
+		font-size: 2rem;
+		font-weight: 500;
+	}
+
+	p {
+
+		&.lg {
+			font-size: 1.875rem;
+			line-height: 1.5;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+
+	h1, .h1 {
+		font-size: 1.875rem;
+	}
+
+	h2, .h2 {
+		font-size: 1.5625rem;
+	}
+
+	h3, .h3 {
+		font-size: 1.375rem;
+	}
+
+	h4, .h4 {
+		font-size: 1.25rem;
+	}
+
+	h5, .h5 {
+		font-size: 1.125rem;
+	}
+
+	p {
+		font-size: 1.125rem;
+
+		&.lead {
+			font-size: 1.25rem;
+		}
+
+		&.lg {
+			font-size: 1.5625rem;
+		}
+
+		&.xs {
+			font-size: 12px;
+		}
+	}
+}
+
+a {
+	transition: all 300ms ease;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.visuallyhidden {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(0 0 99.9% 99.9%);
+	overflow: hidden;
+	height: 1px;
+	width: 1px;
+	padding: 0;
+	border: 0;
+}

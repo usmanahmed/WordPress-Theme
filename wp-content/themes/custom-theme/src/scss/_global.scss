@@ -1,0 +1,33 @@
+section {
+	padding: 3rem 0;
+}
+
+button:focus, button:active {
+	outline: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.dark-blue-bg {
+	background-color: $dark-blue;
+	color: #fff;
+
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		color: #fff;
+	}
+}
+
+.light-grey-bg {
+	background-color: $lt-grey-bg;
+}
+
+.intro {
+	max-width: 875px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3rem;
+}

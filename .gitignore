@@ -1,0 +1,20 @@
+node_modules
+wp-admin/
+wp-includes/
+/*.*
+assets/*
+*.css
+*.map
+package-lock.json
+
+# !wp-content/*
+
+wp-content/plugins/**
+wp-content/uploads/**
+wp-content/index.php
+wp-content/themes/index.php
+wp-content/themes/twenty*/**
+wp-content/plugins/**
+
+!/wp-config-*
+!/.gitignore
